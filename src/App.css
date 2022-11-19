@@ -22,17 +22,16 @@ a
 /*---Header---*/
 .header
 {
- height: 4000px;
+height: 100px ;
   width:100vw;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://images.unsplash.com/photo-1477346611705-65d1883cee1e?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2Njg2MjIwNTY&ixlib=rb-4.0.3&q=80');
-  background-size:cover; 
 }
 /*---Navbar---*/
 .navbar
 {
+  background-color: darkgray;
   position:absolute;
   width:100%;
-  padding:50px;
+  padding:40px;
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -57,7 +56,7 @@ a
 }
 .navbar a 
 {
-  color:white;
+  color:black;
 }
 .navbar .menu-hamburger
 {
@@ -120,4 +119,14 @@ a
   {
     display:block;
   }
+}
+#kk{
+  width: 16px;
+  height: 16px;
+}
+.burger {
+  content:url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png");
+}
+.close{
+  content:url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-close-512.png");
 }
